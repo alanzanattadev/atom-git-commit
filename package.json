@@ -7,7 +7,7 @@
   "activationCommands": {
     "atom-workspace": "git-commit:toggle"
   },
-  "repository": "https://github.com/atom/git-commit",
+  "repository": "https://github.com/alanzanattadev/atom-git-commit.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
