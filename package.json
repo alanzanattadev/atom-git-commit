@@ -1,8 +1,8 @@
 {
   "name": "git-commit",
   "main": "./lib/git-commit",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.1.0",
+  "description": "Package to make git commit from Atom",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "git-commit:toggle"
