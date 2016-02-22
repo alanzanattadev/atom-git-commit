@@ -2,8 +2,8 @@
 'context-menu':
   'atom-text-editor': [
     {
-      'label': 'Toggle git-commit'
-      'command': 'git-commit:toggle'
+      'label': 'Commit'
+      'command': 'git-commit:commit'
     }
   ]
 'menu': [
@@ -13,8 +13,8 @@
       'label': 'git-commit'
       'submenu': [
         {
-          'label': 'Toggle'
-          'command': 'git-commit:toggle'
+          'label': 'Commit'
+          'command': 'git-commit:commit'
         }
       ]
     ]
