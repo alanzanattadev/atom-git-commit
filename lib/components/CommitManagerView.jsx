@@ -40,18 +40,18 @@ var CommitManagerView = React.createClass({
   render: function() {
     return (
       <div>
-        <li style={{listStyle: "none"}}>
+        <ul style={{listStyle: "none", paddingLeft: "10px"}}>
           {this.props.files.map((file, i) => {
             return (
-              <ul key={`fileItem${i}`} style={{width: "100%", display:"flex", paddingLeft: "0px"}}>
+              <li key={`fileItem${i}`} style={{width: "100%", display:"flex", marginBottom: "5px", marginTop: "5px"}}>
                 <span style={styles.fileName}>{file.name}</span>
                 <div style={{display: "inline-flex", justifyContent: "flex-end", flexGrow: "1"}}>
                   <input ref={file.name} style={styles.inputCheckBox} type="checkbox" defaultChecked={true}/>
                 </div>
-              </ul>
+              </li>
             )
           })}
-        </li>
+        </ul>
         <input ref="inputText" type="text" className="native-key-bindings" style={styles.inputText} placeholder="Commit Message"/>
       </div>
     );
