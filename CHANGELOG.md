@@ -1,3 +1,4 @@
+## 1.2.2 - Removes old commit message
 ## 1.2.1 - Fixes lists
 ## 1.2.0 - Error handling
 print stderr instead of node err on git command errors
