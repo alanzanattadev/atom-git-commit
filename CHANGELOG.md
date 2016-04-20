@@ -1,3 +1,6 @@
+## 1.4.0 - Adds Remote Feature with Nuclide
+Remote file selected from nuclide can now be commited
+Changes cwd of commit command to repo root
 ## 1.3.0 - Removes old commit message
 ## 1.2.1 - Fixes lists
 ## 1.2.0 - Error handling
