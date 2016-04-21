@@ -8,9 +8,6 @@
     "commit",
     "add"
   ],
-  "activationCommands": {
-    "atom-workspace": "git-commit:commit"
-  },
   "repository": "https://github.com/alanzanattadev/atom-git-commit.git",
   "license": "MIT",
   "engines": {
@@ -22,5 +19,15 @@
     "radium": "^0.16.6",
     "react": "^0.14.7",
     "react-dom": "^0.14.7"
+  },
+  "package-dependencies": {
+    "tool-bar": "^0.2.0"
+  },
+  "consumedServices": {
+    "tool-bar": {
+      "versions": {
+        "^0.1.0": "consumeToolBar"
+      }
+    }
   }
 }

@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'icon-git';
+    src:
+        url('atom://git-commit/assets/fonts/icon-git.woff') format('woff'),
+        url('atom://git-commit/assets/fonts/icon-git.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-git-"], [class*=" icon-git-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icon-git' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-git-stagecommit:before {
+    content: "\e910";
+}
+.icon-git-remove:before {
+    content: "\e901";
+}
+.icon-git-checkout:before {
+    content: "\e902";
+}
+.icon-git-mergebranch:before {
+    content: "\e911";
+}
+.icon-git-pull:before {
+    content: "\e904";
+}
+.icon-git-push:before {
+    content: "\e905";
+}
+.icon-git-rebase:before {
+    content: "\e906";
+}
+.icon-git-update:before {
+    content: "\e907";
+}
