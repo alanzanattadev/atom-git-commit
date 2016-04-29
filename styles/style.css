@@ -23,7 +23,7 @@
 }
 
 .icon-git-stagecommit:before {
-    content: "\e910";
+    content: "\e900";
 }
 .icon-git-remove:before {
     content: "\e901";
@@ -32,7 +32,7 @@
     content: "\e902";
 }
 .icon-git-mergebranch:before {
-    content: "\e911";
+    content: "\e903";
 }
 .icon-git-pull:before {
     content: "\e904";
