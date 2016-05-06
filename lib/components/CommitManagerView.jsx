@@ -1,5 +1,5 @@
 'use babel'
-import React from 'react';
+import React from 'react-for-atom';
 import classNames from 'classnames';
 
 var styles = {

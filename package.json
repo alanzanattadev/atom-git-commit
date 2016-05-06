@@ -18,7 +18,8 @@
     "node-ssh": "^2.0.7",
     "radium": "^0.16.6",
     "react": "^0.14.7",
-    "react-dom": "^0.14.7"
+    "react-dom": "^0.14.7",
+    "react-for-atom": "^15.0.2-0"
   },
   "package-dependencies": {
     "tool-bar": "^0.2.0"
