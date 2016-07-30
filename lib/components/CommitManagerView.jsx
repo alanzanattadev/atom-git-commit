@@ -43,7 +43,7 @@ var CommitManagerView = React.createClass({
         <ul style={{listStyle: "none", paddingLeft: "10px"}}>
           {this.props.files.map((file, i) => {
             return (
-              <li key={`fileItem${i}`} style={{width: "100%", display:"flex", marginBottom: "5px", marginTop: "5px"}}>
+              <li key={`${file.name}`} style={{width: "100%", display:"flex", marginBottom: "5px", marginTop: "5px"}}>
                 <span style={styles.fileName}>{file.name}</span>
                 <div style={{display: "inline-flex", justifyContent: "flex-end", flexGrow: "1"}}>
                   <input ref={file.name} style={styles.inputCheckBox} type="checkbox" defaultChecked={true}/>
